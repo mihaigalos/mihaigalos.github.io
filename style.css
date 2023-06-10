@@ -27,7 +27,8 @@
 .mark_domain {
   bottom: 100px;
   color: #FFFFFF;
-  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  font-size: 70px;
   position: absolute;
   right: 400px;
   text-decoration: none;
@@ -36,7 +37,8 @@
 .mark_top_level_domain {
   bottom: 100px;
   color: #FFFFFF;
-  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  font-size: 70px;
   position: absolute;
   right: 130px;
   text-decoration: none;
