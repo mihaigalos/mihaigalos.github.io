@@ -25,25 +25,19 @@
 }
 
 .mark_domain {
-  position: absolute;
   bottom: 100px;
+  color: #FFFFFF;
+  font-size: 15px;
+  position: absolute;
   right: 400px;
   text-decoration: none;
-  color: #FFFFFF;
 }
 
 .mark_top_level_domain {
-  position: absolute;
   bottom: 100px;
+  color: #FFFFFF;
+  font-size: 15px;
+  position: absolute;
   right: 130px;
   text-decoration: none;
-  color: #FFFFFF;
-}
-
-.vl {
-  position: absolute;
-  border-left: 10px solid white;
-  height: 100px;
-  bottom: 100px;
-  right: 350px;
 }
