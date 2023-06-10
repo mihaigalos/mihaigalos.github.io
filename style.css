@@ -25,12 +25,12 @@
 }
 
 .mark_domain {
-  bottom: 30px;
+  bottom: 20px;
   color: #FFFFFF;
   font-family: Verdana, sans-serif;
   font-size: 25px;
   position: absolute;
-  right: 30px;
+  right: 20px;
   text-decoration: none;
 }
 
