@@ -6,6 +6,7 @@
   height: 100%;
   overflow: hidden;
 }
+
 .video-container video {
   /* Make video to at least 100% wide and tall */
   min-width: 100%;
@@ -19,30 +20,35 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .box {
-    position:relative;
+  position: relative;
 }
+
 .mark_domain {
-    position:absolute;
-    bottom:100px;
-    right:400px;
-    font-size: 100px;
+  position: absolute;
+  bottom: 100px;
+  right: 400px;
+  font-size: 100px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .mark_top_level_domain {
-    position:absolute;
-    bottom:100px;
-    right:130px;
-    font-size: 100px;
+  position: absolute;
+  bottom: 100px;
+  right: 130px;
+  font-size: 100px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .vl {
-  position:absolute;
+  position: absolute;
   border-left: 10px solid white;
   height: 100px;
-  bottom: 200px;
+  bottom: 100px;
   right: 350px;
 }
