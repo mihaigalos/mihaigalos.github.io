@@ -11,7 +11,7 @@
 <body>
 
   <div class="video-container">
-    <video autoplay loop>
+    <video autoplay loop muted>
       <source src="https://media.githubusercontent.com/media/mihaigalos/mihaigalos.github.io/main/blackhole.mp4"
         type="video/mp4" />
       <source src="https://media.githubusercontent.com/media/mihaigalos/mihaigalos.github.io/main/blackhole.ogg"
@@ -23,6 +23,7 @@
   <script>
     const video = document.querySelector('video');
     video.playbackRate = 0.5;
+    video.play();
   </script>
 
   <div id="box">
